@@ -6,7 +6,7 @@ Download Android Studio [latest version](https://developer.android.com/studio).<
 For setting up Android Studio, [check out this YT video](https://www.youtube.com/watch?v=fis26HvvDII&t=21125s).
 
 # How to contribute
-+ Reply to an issue to be assigned (Please only work on the issue that you are assigned, in case of multiple people working on the same issue)
++ Reply to an issue to be assigned (Please only work on the issue that you are assigned)
 + Fork the project
 + Work on the your forked project (Not the main)
 + Create the pull request with your porked project
