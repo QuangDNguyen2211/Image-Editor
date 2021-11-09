@@ -2,7 +2,7 @@
 An Android app that lets the users edit their image
 
 # Screen Shoot
-<img src="/Pic/UI.png" width="50%">
+<img src="/Pic/UI.png" width="35%">
 ![Size -](/Pic/Size-.png)
 ![Size +](/Pic/Size+.png)
 ![Rotate](/Pic/Rotate.png)
