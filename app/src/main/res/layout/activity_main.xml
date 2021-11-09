@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#757575" >
+    tools:context=".MainActivity">
+
+    //Text Message Title
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Image Editor App"
+        android:textColor="#000"
+        android:textSize="35sp"
+        />
+
+    //Image Widget
+    <ImageView
+        android:id="@+id/appImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/app_image"
+        />
+
+    //Reset Button
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/blueButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="resetClicked"
+        android:text="Reset"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#001E8A"
+        />
+
+    //Rotate Button
+    <Button
+        android:id="@+id/rotateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/flipButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="rotateClicked"
+        app:backgroundTint="#001E8A"
+        android:text="Rotate"
+        android:textColor="#FFFFFF"
+        />
+
+    //Size- Button
+    <Button
+        android:id="@+id/smallSizeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rotateButton"
+        android:onClick="smallSizeClicked"
+        android:text="Size -"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#001E8A"
+        />
+
+    //Size+ Button
+    <Button
+        android:id="@+id/bigSizeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/darkButton"
+        android:layout_alignParentRight="true"
+        android:onClick="bigSizeClicked"
+        android:text="Size +"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#001E8A"
+        />
+
+    //Bright Button
+    <Button
+        android:id="@+id/brightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="brightClicked"
+        app:backgroundTint="#001E8A"
+        android:text="Bright"
+        android:textColor="#FFFFFF"
+        />
+
+    //Dark Button
+    <Button
+        android:id="@+id/darkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/brightButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:onClick="darkClicked"
+        app:backgroundTint="#001E8A"
+        android:text="Dark"
+        android:textColor="#FFFFFF"
+        />
+
+    //Flip Button
+    <Button
+        android:id="@+id/flipButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="flipClicked"
+        app:backgroundTint="#001E8A"
+        android:text="Flip"
+        android:textColor="#FFFFFF"
+        />
+
+    //Grayscale Button
+    <Button
+        android:id="@+id/grayscaleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/blueButton"
+        android:layout_alignLeft="@+id/brightButton"
+        android:layout_alignTop="@+id/flipButton"
+        android:layout_alignParentBottom="true"
+        android:onClick="grayscaleClicked"
+        app:backgroundTint="#001E8A"
+        android:text="Grayscale"
+        android:textColor="#FFFFFF"
+        />
+
+    //Blue button
+    <Button
+        android:id="@+id/blueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/grayscaleButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="blueClicked"
+        app:backgroundTint="#001E8A"
+        android:text="Blue"
+        android:textColor="#FFFFFF"
+        />
+</RelativeLayout>
