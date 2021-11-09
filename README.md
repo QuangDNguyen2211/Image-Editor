@@ -2,14 +2,14 @@
 An Android app that lets the users edit their image
 
 # Screen Shoot
-![UI](/Pic/UI)
-![Size -](/Pic/Size -)
-![Size +](/Pic/Size +)
-![Rotate](/Pic/Rotate)
-![Blue](/Pic/Blue)
-![Gray Scale](/Pic/GrayScale)
-![Dark](/Pic/Dark)
-![Bright](/Pic/Bright)
+![UI](/Pic/UI.png)
+![Size -](/Pic/Size -.png)
+![Size +](/Pic/Size +.png)
+![Rotate](/Pic/Rotate.png)
+![Blue](/Pic/Blue.png)
+![Gray Scale](/Pic/GrayScale.png)
+![Dark](/Pic/Dark.png)
+![Bright](/Pic/Bright.png)
 
 
 # How to work with Android Studio
