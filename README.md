@@ -1,6 +1,17 @@
 # Image-Editor
 An Android app that lets the users edit their image
 
+# Screen Shoot
+![UI](/Pic/UI)
+![Size -](/Pic/Size -)
+![Size +](/Pic/Size +)
+![Rotate](/Pic/Rotate)
+![Blue](/Pic/Blue)
+![Gray Scale](/Pic/GrayScale)
+![Dark](/Pic/Dark)
+![Bright](/Pic/Bright)
+
+
 # How to work with Android Studio
 Download Android Studio [latest version](https://developer.android.com/studio).<br/>
 For setting up Android Studio, [check out this YT video](https://www.youtube.com/watch?v=fis26HvvDII&t=21125s).
