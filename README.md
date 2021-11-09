@@ -3,7 +3,6 @@ An Android app that lets the users edit their image
 
 # How to work with Android Studio
 Download Android Studio [latest version](https://developer.android.com/studio). 
-
 For setting up Android Studio, [check out this YT video](https://www.youtube.com/watch?v=fis26HvvDII&t=21125s).
 
 # How to contribute
