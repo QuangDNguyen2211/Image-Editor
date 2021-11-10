@@ -28,8 +28,10 @@ For setting up Android Studio, [check out this YT video](https://www.youtube.com
 ## Set up Android Studio
 1. Download Android Studio [latest version](https://developer.android.com/studio).
 2. For setting up Android Studio, [check out this YT video](https://www.youtube.com/watch?v=fis26HvvDII&t=21125s).
+   - You only need to watch the setting up part of the video
+3. Now you're ready to work on the project  
 ## How to test
-+
++ Choose one of the virtual devices that you created to see your changes
 ## How to create a pull request
 1. Go to the main repo, and select pull request
 2. Choose new pull request
