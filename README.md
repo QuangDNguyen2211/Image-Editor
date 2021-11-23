@@ -29,8 +29,9 @@ An Android app that lets the users edit their image
 4. Go to the project directory then click OK (Make sure the project directory has the Android Studio icon because if it does not, it will not create the enviroment for the project)
 5. Now you're ready to work on the project  
 ## How to test
-+ If you follow the set up video corectly, you already create at least a virtual android device
-+ Choose one of the virtual devices that you created to test (Here's a [link](https://developer.android.com/studio/run/emulator) if you are still unclear)
++ If you follow the set up video corectly, you have already created at least an android virtual device
++ Choose one of the virtual devices that you created to test 
++ Here's a [link](https://developer.android.com/studio/run/emulator) if you are still unclear or if you have not created an android virtual device
 ## How to create a pull request
 1. Go to the main repo, and select pull request
 2. Choose new pull request
@@ -38,3 +39,4 @@ An Android app that lets the users edit their image
     - Document what you changed (Please be as specific as possible)
 # Coding Standard
 - The project is mostly done in Kotlin, so you need to follow [Kotlin coding standard](https://developer.android.com/kotlin/style-guide)
+- However, if you want to use Java, follows this [Java coding standard](https://source.android.com/setup/contribute/code-style)
