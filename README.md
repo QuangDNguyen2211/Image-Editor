@@ -14,10 +14,6 @@ An Android app that lets the users edit their image
 <img src="/Pic/Dark.png" width="35%">        <img src="/Pic/Bright.png" width="35%">
 
 
-# How to work with Android Studio
-Download Android Studio [latest version](https://developer.android.com/studio).<br/>
-For setting up Android Studio, [check out this YT video](https://www.youtube.com/watch?v=fis26HvvDII&t=21125s).
-
 # How to contribute
 ## Getting started
 1. Reply to an issue to be assigned (Please only work on the issue that you are assigned)
