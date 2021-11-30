@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     //Text Message Title
+
     <TextView
         android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
@@ -17,21 +18,34 @@
         android:layout_centerHorizontal="true"
         android:text="Image Editor App"
         android:textColor="#000"
-        android:textSize="35sp"
-        />
+        android:textSize="35sp" />
+
 
     //Image Widget
+
+    <Button
+        android:id="@+id/rotateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/flipButton"
+        android:layout_marginBottom="2dp"
+        android:onClick="rotateClicked"
+        android:text="Rotate"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#001E8A"
+         />
+
     <ImageView
         android:id="@+id/appImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
         android:layout_centerVertical="true"
         android:adjustViewBounds="true"
-        android:src="@drawable/app_image"
-        />
+        android:src="@drawable/app_image" />
 
     //Reset Button
+
     <Button
         android:id="@+id/resetBtn"
         android:layout_width="wrap_content"
@@ -41,36 +55,25 @@
         android:onClick="resetClicked"
         android:text="Reset"
         android:textColor="#FFFFFF"
-        app:backgroundTint="#001E8A"
-        />
+        app:backgroundTint="#001E8A" />
 
     //Rotate Button
-    <Button
-        android:id="@+id/rotateButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/flipButton"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:onClick="rotateClicked"
-        app:backgroundTint="#001E8A"
-        android:text="Rotate"
-        android:textColor="#FFFFFF"
-        />
 
     //Size- Button
+
+    //Size+ Button
+
     <Button
         android:id="@+id/smallSizeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/rotateButton"
+        android:layout_marginBottom="-1dp"
         android:onClick="smallSizeClicked"
         android:text="Size -"
         android:textColor="#FFFFFF"
-        app:backgroundTint="#001E8A"
-        />
+        app:backgroundTint="#001E8A" />
 
-    //Size+ Button
     <Button
         android:id="@+id/bigSizeButton"
         android:layout_width="wrap_content"
@@ -80,14 +83,14 @@
         android:onClick="bigSizeClicked"
         android:text="Size +"
         android:textColor="#FFFFFF"
-        app:backgroundTint="#001E8A"
-        />
+        app:backgroundTint="#001E8A" />
 
     //Bright Button
     <Button
         android:id="@+id/brightButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
@@ -112,6 +115,7 @@
         />
 
     //Flip Button
+
     <Button
         android:id="@+id/flipButton"
         android:layout_width="wrap_content"
@@ -120,12 +124,14 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:onClick="flipClicked"
-        app:backgroundTint="#001E8A"
         android:text="Flip"
         android:textColor="#FFFFFF"
-        />
+        app:backgroundTint="#001E8A" />
 
     //Grayscale Button
+
+    //Blue button
+
     <Button
         android:id="@+id/grayscaleButton"
         android:layout_width="wrap_content"
@@ -134,13 +140,15 @@
         android:layout_alignLeft="@+id/brightButton"
         android:layout_alignTop="@+id/flipButton"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="-20dp"
+        android:layout_marginLeft="-171dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="5dp"
         android:onClick="grayscaleClicked"
-        app:backgroundTint="#001E8A"
         android:text="Grayscale"
         android:textColor="#FFFFFF"
-        />
+        app:backgroundTint="#001E8A" />
 
-    //Blue button
     <Button
         android:id="@+id/blueButton"
         android:layout_width="wrap_content"
